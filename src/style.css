@@ -1,0 +1,43 @@
+
+.content{
+    border: solid 1px rgb(209, 207, 207);
+    border-radius: 30px;
+    background-color: rgb(239, 233, 233);
+    margin-top: 50px;
+}
+
+.rounded-circle{
+    padding: 10px 10px;
+    border: solid rgb(218, 214, 214) 5px;
+
+}
+#main-picture{
+    margin-top: 65px;
+    margin-left: 50px;
+}
+.main-textblock{
+    text-align: left;
+    margin-top: 75px;
+}
+.city-block{
+    text-align: center;
+    color: rgb(96, 95, 95);
+}
+.form-control{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.footer{
+text-align: center;
+padding-top: 100px;
+}
+.time,
+.day{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(157, 142, 93);
+}
