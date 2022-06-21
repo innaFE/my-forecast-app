@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </script>
+    <title>My Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    
+                    <div class="col">
+                       
+                        <img src="src/images/sun.png" class="rounded-circle" id="main-picture" class= "responsive" width="100px" height="100px" alt="sun" >
+                    </div>
+                    <div class="col">
+                        <div class="main-textblock"> 
+                       <span id="current-time"></span> 
+                        <p id="humidity"></p>
+                        <p id="wind"> </p>
+                       <p><span id = "current-temp"></span>
+                        <span class="celsius" > <a href="# " id = "celsius-degree">°C </a> </span>
+                           /
+                           <span class="faringete"> <a href="#" id="faringete-degree">F</a></span></p> 
+                           <span id = "description"> <b></b></span>
+                        </div>
+                </div>
+                  
+                    </div>
+                </div>
+            
+
+            <div class="col">
+                <div class="city-block">
+                <h2 id="current-date"></h2>
+                <h2></h2>
+                <h1 id = "current-city"></h1>
+                <div><button id = "current-button">Current  City</button></div>
+               </div>
+                
+            </div>
+            <div class="col">
+                <form id="search-form">
+                    <input
+                      type="text"
+                      placeholder="🔍 Search your city"
+                      class="form-control"
+                      id="search-text-input"
+                    />
+            </div>
+
+        
+
+
+
+            <div class="footer">
+            <div class="row">
+                <div class="col">
+                    <img src="src/images/sun.png" class="rounded-circle"   class= "responsive" width="100px" height="100px" alt="sun" >
+                   
+                    <span class="day">Saturday</span> 
+                    <b>Sunny</b>
+                   <p>+24 °C </p> 
+                </div>
+            
+
+                <div class="col">
+                    <img src="src/images/cloudy.png" class="rounded-circle"   class= "responsive" width="100px" height="100px" alt="sun" >
+                    <span class="day">Sunday </span> 
+                    <b>Cloudy</b>
+                   <p>+15 °C </p> 
+                </div>
+
+                <div class="col">
+                    <img src="src/images/Rainy.png" class="rounded-circle"   class= "responsive" width="100px" height="100px" alt="sun" >
+                    <span class="day">Monday</span> 
+                    <b>Rainy</b>
+                   <p>+15 °C </p> 
+                </div>
+
+                <div class="col">
+                    <img src="src/images/sun.png" class="rounded-circle"   class= "responsive" width="100px" height="100px" alt="sun" >
+                    <span class="day">Tuesday</span> 
+                    <b>Sunny</b>
+                   <p>+15 °C </p> 
+                </div>
+
+                <div class="col">
+                    <img src="src/images/sun.png" class="rounded-circle"   class= "responsive" width="100px" height="100px" alt="sun" >
+                    <span class="day">Wednesday</span> 
+                    <b>Sunny</b>
+                   <p>+21 °C </p> 
+                </div>
+
+                <div class="col">
+                    <img src="src/images/sun.png" class="rounded-circle"   class= "responsive" width="100px" height="100px" alt="sun" >
+                    <span class="day">Thursday</span> 
+                    <b>Sunny</b>
+                   <p>+25 °C </p> 
+                </div>
+            </div>
+                
+            </div>
+          </div>
+        </div>
+    
+   <script src="main.js"></script>
+</body>
+</html>
