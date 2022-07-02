@@ -16,46 +16,42 @@
         <div class="row">
             <div class="col">
                 <div class="row">
-                    
                     <div class="col">
-                       
-                        <img src="src/images/sun.png" class="rounded-circle" id="main-picture" class= "responsive" width="100px" height="100px" alt="sun" >
+                        <img src=" " id = "icon" class="rounded-circle" id="main-picture" class= "responsive" width="100px" height="100px" alt="sun" >
                     </div>
                     <div class="col">
                         <div class="main-textblock"> 
-                       <span id="current-time"></span> 
+                       <span id="time"></span> 
                         <p id="humidity"></p>
                         <p id="wind"> </p>
-                       <p><span id = "current-temp"></span>
-                        <span class="celsius" > <a href="# " id = "celsius-degree">°C </a> </span>
-                           /
-                           <span class="faringete"> <a href="#" id="faringete-degree">F</a></span></p> 
+                       <p><span id = "temperature"></span>
+                        <span class="units"°C >
+                            <a href="#" id="celsius-link">°C</a
+                                ><a href="#" id="fahrenheit-link">°F</a>
+                             </span>
+                             </p>
                            <span id = "description"> <b></b></span>
                         </div>
                 </div>
-                  
                     </div>
                 </div>
-            
-
             <div class="col">
                 <div class="city-block">
-                <h2 id="current-date"></h2>
+                <h2 id="date"></h2>
                 <h2></h2>
-                <h1 id = "current-city"></h1>
-                <div><button id = "current-button">Current  City</button></div>
+                <h1 id = "city"></h1>
                </div>
-                
             </div>
+
             <div class="col">
                 <form id="search-form">
                     <input
                       type="text"
                       placeholder="🔍 Search your city"
                       class="form-control"
-                      id="search-text-input"
-                    />
+                      id="city-input"/>
             </div>
+
             <div class="footer">
             <div class="row">
                 <div class="col">
@@ -66,12 +62,11 @@
                    <p>+24 °C </p> 
                 </div>
             
-
                 <div class="col">
                     <img src="src/images/cloudy.png" class="rounded-circle"   class= "responsive" width="100px" height="100px" alt="sun" >
                     <span class="day">Sunday </span> 
                     <b>Cloudy</b>
-                   <p>+15 °C </p> 
+                   <p>+16 °C </p> 
                 </div>
 
                 <div class="col">
